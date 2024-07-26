@@ -1,0 +1,131 @@
+.swuCon{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: black;
+    z-index: 50;
+}
+
+.swuWra{
+    width:70%;
+    height: 75%;
+    background-color: #DCDDDE;
+    padding: 20px 50px;
+    overflow: auto;
+}
+
+@media screen and (max-width: 1250px) {
+    .swuWra{
+        width:70%;
+        height: 80%;
+    }
+    .swuComWra{
+        width: 45% !important;
+    }
+}
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 425px) {
+    .swuWra{
+        width:70%;
+        height: 80%;
+    }
+
+    .swuComCon{
+        flex-direction: column;
+    }
+
+    .swuComWra{
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+     .swuWra{
+        padding: 20px 40px;
+     }
+}
+
+@media screen and  (min-device-width: 426px) and (max-device-width: 840px) {
+    .swuWra{
+        padding: 20px 20px;
+    }
+    
+    .swuComWra{
+        width: 46% !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+.swuHeader{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end   ;
+}
+
+.swuText{
+    font-family: Outfit;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 75.6px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+.swuComCon{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.swuComWra{
+    width: 40%;
+    background-color : rgba(194, 194, 194, 1);
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    padding: 15px 40px;
+    border-radius: 10px;
+}
+
+.swuComWraHeader{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.swuComWraHeaderText{
+    font-family: Outfit;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+}
+
+.swuComWraText{
+    font-family: Outfit;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+    color: rgba(85, 85, 85, 1);
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.swuWhatsappLogo{
+    width: 40px;
+    height: 40px;
+}
+
+.swuComWraBtn{
+    font-size: 13px;
+}
